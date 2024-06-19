@@ -1,0 +1,463 @@
+/*navigayion css */
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: rgb(115, 110, 102);
+    vertical-align: top;
+}
+
+.nav-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+.nav-item{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-item-underline{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.myLogo{
+    width:4%;
+    padding:2px;
+}
+
+.myLogo1{
+    width:40%;
+    padding:2px;
+}
+
+/*body */
+
+#categoryGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 710px;
+    grid-template-areas: 
+    "doi about camping"
+    "npo contact caseStudy";
+}
+   
+#about{
+    grid-area: about;
+    padding: 30px;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+}
+
+#aboutMe{
+    display:grid;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+    
+#introduction{
+    display:grid;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact{
+    grid-area: contact;
+    align-content: end;
+    text-align: center;
+    border-left:1px solid #000000;
+    border-right:1px solid #000000;
+}
+
+#contactsection{
+    grid-area: contact;
+    background-color:rgb(115, 110, 102);
+    padding-bottom: 10px;
+    height: 30px;
+    align-content: flex-end;
+}
+.footer-item{
+    color:rgb(241, 242, 235);
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+#doi{
+    grid-area: doi;
+    position: relative;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+    border-bottom:1px solid #000000;
+
+}
+
+#npo{
+    grid-area: npo;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+}
+
+#camping{
+    grid-area: camping;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+    border-bottom:1px solid #000000;
+
+}
+
+#caseStudy{
+    grid-area: caseStudy;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right:3px;
+}
+
+.myWorkMock{
+    width:98%
+}
+
+#doiwebsite{
+    padding:10px;
+}
+
+#npowebsite{
+    padding:10px;
+}
+
+#campingapp{
+    padding:10px;
+}
+
+#casestudybox{
+    padding:10px;
+}
+
+/*my Skills */
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+}
+
+.educationdiv, .experiencediv{
+    background-color: rgb(60, 69, 82);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom:20px;
+    row-gap: 50px;
+    margin-top: 25%;
+}
+
+.Introductiondiv, .ExperienceIntrodiv{
+    background-color: rgb(60, 69, 82);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    row-gap: 50px;
+    margin-top: 25%;
+} 
+
+/* resume */
+
+.resumediv{
+    padding-top:30%;
+    text-align: right;
+}
+
+.resumeText{
+    padding-right:30%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Education */
+
+#educationText{
+    color: rgb(241, 242, 235);
+    padding-left: 20%;
+    font-weight:bold;
+}
+
+.Introductiondiv{
+    color:rgb(241, 242, 235);
+    line-height: 150%;
+    font-size: 14px;
+}
+
+/*Experience */
+
+#experienceText{
+    color: rgb(241, 242, 235);
+    padding-left: 20%;
+    font-weight:bold;
+    }
+
+ .ExperienceIntrodiv{
+     color:rgb(241, 242, 235);
+    line-height: 150%;
+    font-size: 14px;
+    }
+
+/* UX Skills */
+
+.uxflexcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.uxSkills{
+    width: 20%;
+    padding-top: 3%;
+}
+
+.uxSkillsText{
+    text-align: right;
+    padding-right:30%;
+    font-weight: bold;
+}
+
+.bulletPoint{
+    background-color: rgb(217, 217, 217);
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+
+
+/*user research*/
+
+.userResearch{
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 23%;
+}
+
+
+h5{
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(241, 242, 235);
+    background-color: rgb(119, 139, 163);
+    height:30px;
+    margin-top: auto;
+}
+
+p{
+    background-color: rgb(217, 217, 217);
+    height: 160px;
+    padding-top:10%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/*wiereframe*/
+
+.wireframe{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 23%;
+}
+
+/*ui*/
+
+.ui{
+    grid-area: ui;
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 23%;
+}
+
+/*blank*/
+.blankdiv{
+    width: 20%;
+}
+
+/* Js Css */
+
+.image-overlay{
+    width: 393px;
+    height: 210px;
+    background-color:  rgb(60, 69, 82);
+    color: rgb(217, 217, 217);
+    line-height: 140%;
+    font-size: large;
+    z-index: 1;
+    opacity: 0.9;
+    position: fixed;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 7.2rem;
+    display:none;
+}
+
+.image-overlay-2{
+    width: 393px;
+    height: 220px;
+    background-color:  rgb(60, 69, 82);
+    color: rgb(217, 217, 217);
+    line-height: 140%;
+    font-size: large;
+    z-index: 1;
+    opacity: 0.9;
+    position: fixed;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 26em;
+    display:none;
+}
+
+.image-overlay-3{
+    width: 392px;
+    height: 216px;
+    background-color:  rgb(60, 69, 82);
+    color: rgb(217, 217, 217);
+    line-height: 140%;
+    font-size: large;
+    z-index: 1;
+    opacity: 0.9;
+    position: fixed;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 6.4em;
+    right: 1.1em;
+    display:none;
+}
+
+@media only screen and (max-width:600px){
+    
+    .gridcontainer{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows:auto;
+    }
+
+
+    .uxflexcontainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .resumediv{
+        padding-top:5%;
+        text-align: right;
+    }
+    
+    .resumeText{
+        padding-right:0%;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #educationText{
+        color: rgb(241, 242, 235);
+        padding-left: 0%;
+        text-align: center;
+        font-weight:bold;
+    }
+
+    .educationdiv, .experiencediv{
+        background-color: rgb(60, 69, 82);
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-bottom:20px;
+        row-gap: 50px;
+        margin-top: 3%;
+    }
+
+    .Introductiondiv, .ExperienceIntrodiv{
+        background-color: rgb(60, 69, 82);
+        padding-top: 20px;
+        padding-right: 0px;
+        text-align: center;
+        padding-bottom:20px;
+        row-gap: 50px;
+        margin-top: 0%;
+    } 
+
+    #experienceText{
+        color: rgb(241, 242, 235);
+        padding-left: 0%;
+        text-align: center;
+        font-weight:bold;
+    }
+
+
+    .uxSkills{
+        width: 100%;
+        padding-top: 3%;
+        
+    }
+    
+    .uxSkillsText{
+        text-align: center;
+        padding-right:0%;
+        font-weight: bold;
+        }
+
+    h5{
+        text-align: center;
+        padding-top: 3%;
+        color: rgb(241, 242, 235);
+        background-color: rgb(119, 139, 163);
+        height:30px;
+        margin-top: 0%;
+        margin-bottom: 1%;
+    }
+    p{
+        background-color: rgb(217, 217, 217);
+        height: 70%;
+        padding: 7%;
+    }
+
+    .bulletPoint{
+        background-color: rgb(217, 217, 217);
+        height: 130px;
+        padding-top:10%;
+        padding-left: 35%;
+        padding-right: 7%;
+        margin-bottom: 5%;
+    }
+    
+    .userResearch{
+        width: 100%;
+    }
+
+    .wireframe{
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .ui{
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+}
